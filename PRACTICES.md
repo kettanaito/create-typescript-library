@@ -21,4 +21,6 @@ This template repository comes with a number of best practices set up and config
 
 ## Distribution
 
+- Distributes the library in three formats: UMD, ESM, CommonJS.
+- Configures the bundler for a tree-shackable output.
 - Configures the publishing pipeline (`publishOnly`).
