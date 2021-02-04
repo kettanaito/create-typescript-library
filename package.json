@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A repository template for a TypeScript library.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "git@github.com:kettanaito/typescript-library-template.git",
   "author": "Artem Zakharchenko <kettanaito@gmail.com>",
   "license": "MIT",
