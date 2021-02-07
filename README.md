@@ -22,4 +22,4 @@ $ npm install <LIBRARY_NAME>
 
 ## Contributing
 
-Please read the [Contribution guidelines](.github/CONTRIBUTING.md) to start with your awesome contributions!
+Please read the [Contribution guidelines](CONTRIBUTING.md) to start with your awesome contributions!
