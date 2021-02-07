@@ -31,6 +31,9 @@
       "pre-commit": "lint-staged"
     }
   },
+  "engines": {
+    "node": ">= 12.18.0"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-json": "^4.1.0",
