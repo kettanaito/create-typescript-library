@@ -13,8 +13,9 @@
     "lint": "eslint ./{src,test}/**/*.ts",
     "clean": "rimraf ./lib",
     "build": "yarn lint && yarn clean && rollup -c rollup.config.ts",
-    "test": "jest",
-    "prepublishOnly": "yarn build && yarn test"
+    "test": "jest test",
+    "test:lib": "jest STANDARDS.ts --testRegex=\"(STANDARDS\\.ts)\"",
+    "prepublishOnly": "yarn build && yarn test:lib && yarn test"
   },
   "files": [
     "lib",
