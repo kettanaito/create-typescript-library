@@ -23,8 +23,8 @@
   ],
   "lint-staged": {
     "*.ts": [
-      "eslint",
-      "prettier"
+      "prettier --write",
+      "eslint --fix"
     ]
   },
   "husky": {
